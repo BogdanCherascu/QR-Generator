@@ -26,9 +26,9 @@ using Docker Compose.
 
 ##  Tech Stack
 
--   **Backend:** Python 3.11, FastAPI, Uvicorn\
--   **Caching:** Redis\
--   **Image Processing:** `qrcode` library\
+-   **Backend:** Python 3.11, FastAPI, Uvicorn
+-   **Caching:** Redis
+-   **Image Processing:** `qrcode` library
 -   **DevOps / Containerization:** Docker, Docker Compose
 
 ------------------------------------------------------------------------
