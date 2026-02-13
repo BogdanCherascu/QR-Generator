@@ -19,7 +19,7 @@ using Docker Compose.
     URL again, the QR code is served instantly from memory.
 
 -   **Fully Containerized**\
-    Isolated environments using Docker and Docker Compose --- zero local
+    Isolated environments using Docker and Docker Compose - zero local
     dependency conflicts.
 
 ------------------------------------------------------------------------
@@ -60,8 +60,8 @@ docker compose up --build
 3.  The API will automatically start on:
 
 ```{=html}
-```
     http://localhost:8000
+```
 
 ------------------------------------------------------------------------
 
@@ -91,8 +91,9 @@ The API will return a PNG image containing the QR code.
     like:
 
 ```{=html}
-```
     Found in Redis.
+```
+
 
 This proves the image was served instantly from memory without
 regenerating it.
@@ -106,8 +107,9 @@ To stop the containers and remove the created network:
 1.  Press:
 
 ```{=html}
-```
+
     Ctrl + C
+```
 
 2.  Then run:
 
