@@ -11,14 +11,14 @@ using Docker Compose.
 
 ##  Architecture & Features
 
--   **Web Service (FastAPI)**\
+-   **Web Service (FastAPI)**
     Handles incoming HTTP requests and generates PNG QR codes.
 
--   **Cache Service (Redis)**\
+-   **Cache Service (Redis)**
     Stores previously generated QR codes. If a user requests the same
     URL again, the QR code is served instantly from memory.
 
--   **Fully Containerized**\
+-   **Fully Containerized**
     Isolated environments using Docker and Docker Compose - zero local
     dependency conflicts.
 
@@ -82,7 +82,7 @@ The API will return a PNG image containing the QR code.
 
 ##  Testing the Cache (Performance Optimization)
 
-1.  Open the endpoint above in your browser.\
+1.  Open the endpoint above in your browser.
     The API will generate the QR code and store it in Redis.
 
 2.  Refresh the page quickly.
