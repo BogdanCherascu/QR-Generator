@@ -59,8 +59,7 @@ docker compose up --build
 
 3.  The API will automatically start on:
 
-```{=html}
-```
+```{=html}```
     http://localhost:8000
 
 ------------------------------------------------------------------------
